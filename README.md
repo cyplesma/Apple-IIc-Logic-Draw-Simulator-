@@ -10,6 +10,22 @@ The program appears to support:
 - Simulating logic levels through gates
 - Displaying output states using Apple II shape-table graphics
 
+## History
+
+This project began as an Apple IIc Applesoft BASIC logic gate drawing and simulation program originally written in the late 1980s / early 1990s.
+
+The current source was manually re-entered from an old paper printout produced on an Apple Scribe printer. Because of the age and print quality, portions of the listing required reconstruction and analysis to recover the original logic.
+
+The program appears to support:
+
+- Logic gate placement on a grid
+- Connection routing between gates
+- Logic simulation and propagation
+- Save/load of circuit layouts
+- Apple II high-resolution graphics using shape tables
+
+One of the current goals is understanding and documenting how the original routing system worked internally before attempting a modern recreation.
+
 ## Current source
 
 The current recovered listing is in:
