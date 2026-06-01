@@ -18,7 +18,7 @@ The current source was manually re-entered from an old paper printout produced o
 
 The program appears to support:
 
-- Logic gate placement on a grid
+- Logic gate placement is done on a 3 by 5 grid
 - Connection routing between gates
 - Logic simulation and propagation
 - Save/load of circuit layouts
