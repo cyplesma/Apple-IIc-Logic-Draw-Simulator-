@@ -195,9 +195,7 @@
 2150 IF G%(I,7) < 3 THEN EY = 14; GOTO 2180
 2160 IF N(I) = 4 THEN EY = 10: GOTO 2180
 2170 EY =  -10
-2180 HPLOT G%(I,2) - OX,G%(I,3) - OY TO G%(I,2) - OX - EX,G%(I,3) - OY TO G%(I,2) - OX - 
-
-EX,G%(I,3) - OY - EY TO 9,G%(I,3) - OY - EY
+2180 HPLOT G%(I,2) - OX,G%(I,3) - OY TO G%(I,2) - OX - EX,G%(I,3) - OY TO G%(I,2) - OX - EX,G%(I,3) - OY - EY TO 9,G%(I,3) - OY - EY
 2190 GOTO 2100
 3000 GOSUB 1600
 3010 FOR I = 1 TO 15: FOR J = 4 TO 6
